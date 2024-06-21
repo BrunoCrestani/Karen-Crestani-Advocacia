@@ -24,6 +24,7 @@
 
 
 **Mobile Version**
+
 ![Screenshot 2024-06-21 134956](https://github.com/BrunoCrestani/KarenCrestaniAdvocacia/assets/115376136/a26ef5da-9350-4129-92fd-81f6213c9c48)
 ![Screenshot 2024-06-21 135008](https://github.com/BrunoCrestani/KarenCrestaniAdvocacia/assets/115376136/137e095e-0d20-47fe-b413-471d2da6ea41)
 
