@@ -15,15 +15,19 @@
 
 **Desktop version**
 
-![Screenshot 2024-05-28 220835](https://github.com/BrunoCrestani/Karen-Crestani-Advocacia/assets/115376136/20914cfe-a4ed-420d-8461-9c7e0acba267)
+![Screenshot 2024-06-21 134829](https://github.com/BrunoCrestani/KarenCrestaniAdvocacia/assets/115376136/e9d5b808-10a1-4c1f-8741-6d7b23eb6169)
+![Screenshot 2024-06-21 134851](https://github.com/BrunoCrestani/KarenCrestaniAdvocacia/assets/115376136/7dc7b36f-0d2f-4b89-aac1-d2ef3a8f5d00)
+![Screenshot 2024-06-21 134907](https://github.com/BrunoCrestani/KarenCrestaniAdvocacia/assets/115376136/6116bf3c-31f5-4a68-a36c-cc257373faf5)
+![Screenshot 2024-06-21 134923](https://github.com/BrunoCrestani/KarenCrestaniAdvocacia/assets/115376136/90742969-ba07-486d-b966-236e74545772)
+
 
 
 
 **Mobile Version**
+![Screenshot 2024-06-21 134956](https://github.com/BrunoCrestani/KarenCrestaniAdvocacia/assets/115376136/a26ef5da-9350-4129-92fd-81f6213c9c48)
+![Screenshot 2024-06-21 135008](https://github.com/BrunoCrestani/KarenCrestaniAdvocacia/assets/115376136/137e095e-0d20-47fe-b413-471d2da6ea41)
 
 
-![Screenshot 2024-04-25 103248](https://github.com/BrunoCrestani/Karen-Crestani-Advocacia/assets/115376136/72c113d3-4d6e-42b6-9403-e7cd2fd863ca)
-![Screenshot 2024-04-25 103254](https://github.com/BrunoCrestani/Karen-Crestani-Advocacia/assets/115376136/388c7ca0-1ea2-4338-a4ab-b8a17dc56e54)
 
 
 
