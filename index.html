@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+  <head>
+    <meta charset = "UTF-8"/>
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+    
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel = "stylesheet" href = "styling/style.css" medial="all"/>
+    <link rel = "stylesheet" href = "styling/media-query.css"/>
+  
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <script type="module" src="src/script.js"></script>
+    <title>Karen Crestani Advocacia</title>
+  <body>
+    
+      <a href="#">
+        <img src="img/big_whatsapp.png" alt="Whatsapp" class = "whatsapp__link"/>
+      </a>
+
+  </head>
+      <nav class="nav">
+        <img 
+        src="img/karenCrestaniAdvocaciaLogo.png" 
+        alt="Karen Crestani Advocacia logo"
+        class="nav__logo"
+        id="logo"
+        designer="Bruno Crestani"
+        data-version-number="1.0.0"
+        />
+        <ul class="nav__links">
+        <li class="nav__item">
+          <a class="nav__link" href="#section--1">Áreas de atuação</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--2">Dúvidas</a>
+        </li>
+        <li class="nav__item">
+        <a class="nav__link" href="#section--3">Avaliações</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--4">Onde me Encontrar</a>
+      <li class="nav__item">
+        <a class="nav__link nav__link--btn btn--show-modal" 
+          href="#">Contato</a>
+      </li>
+      <li class="nav__item">
+      </li>
+        </ul>
+    </nav>
+    <label class="hamburger__menu"/>
+    <input type="checkbox" id="hamburger__toggle">
+    </label>
+    <aside class="menu__hidden">
+      <ul class="menu__links">
+        <li class="menu__item">
+          <a class="menu__link" href="#section--1">Áreas de atuação</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#section--2">Dúvidas</a>
+        </li>
+        <li class="menu__item">
+        <a class="menu__link" href="#section--3">Avaliações</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#section--4">Onde me Encontrar</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link
+          menu__link--btn btn--show-modal" href="#">Contato</a>
+        </li>
+      </ul>
+    </aside>
+  <header class="header">    
+    <div class="header__title">
+      <h1> 
+        <span class="highlight">Soluções</span> justas, eficazes e 
+        <span class="highlight">Personalizadas.</span>         
+      </h1>
+      <button class="btn--text btn--scroll-to">Serviço jurídico especializado &DownArrow;</button>
+      <h2 class="header__title--sub"></h2>
+    </div>
+    <img 
+      src="img/KarenCrestani.jpg" 
+      class="header__img"
+      alt="Foto de Karen Crestani"
+    />
+    </header>
+    
+    <section class="section" id="section--1">
+      <h2 class="section__header">Áreas de atuação</h2>
+      <h3 class="section__title"> Direito Da Saúde</h3>
+      <ul class="section__content">
+        <li>
+          <div class="content-item">
+            <img src="icons/paciente.png" alt="Paciente recebendo cuidados medicos" class="icon"/>
+            <span> Indenização por Erro Médico</span>
+        </li>
+        <li>         
+          <div class="content-item">
+            <img src="icons/medicamentos.png" alt="Medicamentos" class="icon"/>
+            <span>Obtenção de Medicamentos Negado Pelo SUS e Planos de Saúde</span>
+        </li>
+        <li>  
+          <div class="content-item">
+          <img src="icons/exames.png" alt="Prancheta" class="icon"/>
+          <span>Liberação de Cirugias Negadas</span>
+        </li>
+        <li>
+          <div class="content-item">
+          <img src="icons/plano_de_saude.png" alt="Documentos e plano de saude" class="icon"/>
+          <span>Revisão de Reajuste de Planos de Saúde</span>
+        </li>
+        <li 
+          <div class="content-item">
+          <img src="icons/hospital.png" alt="Hospital" class="icon"/>
+          <span>Indenização Por Erro Hospitalar</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section" id="section--2">
+      <h2 class="section__header">Dúvidas</h2>
+      <h3 class="section__title">PERGUNTAS FREQUENTES</h3>
+      <h4 class="section__content"> 
+        Quisquam itaque deserunt ullam, quia ea repellendus provident,
+          ducimus neque ipsam modi voluptatibus doloremque, corrupti
+          laborum. Incidunt numquam perferendis veritatis neque repellendus.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+          deserunt exercitationem deleniti.</h4>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+      <h2 class="section__header">Ainda não decidiu?</h2>
+        <h3 class="section__description">Avaliações</h3>
+         Veja o que nossos clientes tem a dizer sobre nós. 
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Satisfação</h5>
+            <blockquote class="testimonial__text">
+            A Doutora Karen é incrivelmente competente, atenciosa e dedicada. 
+            Ela demonstra um compromisso excepcional na defesa dos direitos de seus clientes, 
+            e sua abordagem calorosa e acolhedora me senti segura durante todo o processo. 
+            Recomendo seus serviços sem hesitação.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Erika Alves</h6>
+              <p class="testimonial__location">Curitiba, Brasil</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              À Doutora os meus respeitos</h5>
+            <blockquote class="testimonial__text">
+            Advogada altamente profissional, sábia, competente, sabedora do Direito, 
+            e percebo reunir qualificativos de princípios humanitários, nítidos no seu atendimento.
+            Eu estou orgulhosa e extremamente feliz por ter conhecido Profissional de tal nível.
+            Parabéns Doutora segue todo o meu apreço!
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Lourdes Maria Pires</h6>
+              <p class="testimonial__location">São Paulo, Brasil</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+             Gentileza e humanidade 
+            </h5>
+            <blockquote class="testimonial__text">
+            Gostaria de agradecer a maravilhosa advogada
+            Karen Corrado Crestani, pela gentileza e humanidade com que atua e trata seus clientes. 
+            Advogada melhor não existe. Indico-a à todos com muita alegria e satisfação. 
+            Continue brilhando em sua profissão, pois vc merece muito.😊😊
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Alessandra Abrao</h6>
+              <p class="testimonial__location">Curitiba, Brasil</p>
+            </address>
+          </div>
+        </div>
+        
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Atenciosa às dúvidas
+            </h5>
+            <blockquote class="testimonial__text">
+            Simplesmente fantástica com o meu caso. 
+            A Karen posso dizer que é uma profissional de qualidade, 
+            sabe muito o que está fazendo e 
+            alem de tudo é muito atenciosa às dúvidas. 
+            Resolveu meu caso do início ao fim. 
+            Só tenho a agradecer e dizer que quem precisar estará em ótimas mãos. 
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Jonny Mocelin</h6>
+              <p class="testimonial__location">Curitiba, Brasil</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section" id="section--4">
+      <h2 class="section__header">Onde Me Encontrar</h2>
+      <h3 class="section__title">Rua Dr. zamenhof 378 - Alto da Glória</h3>
+      <div class="map__container">
+        <div id="map"></div>
+      </div>
+    </section>
+
+     <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h3 class="modal__title">Entre em Contato</h3>
+      <h2 class="modal__header">
+        De um passo <span class="highlight">adiante</span> para  <span class="highlight">resolver</span>
+        seu problema
+      </h2>
+      <form class="modal__form">
+        <label>Nome</label>
+        <input type="text" />
+        <label>Sobrenome</label>
+        <input type="text" />
+        <label>Endereço de email</label>
+        <input type="email" />
+        <button class="btn"> &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+   </div>
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="https://www.instagram.com/karen.corrado/" target="_blank">
+            <img src="footer-nav-icons/instagram.png" alt="Instagram" class="footer__link">
+          </a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#" target="_blank">
+            <img src="footer-nav-icons/whatsapp.png" alt="Linkedin" class="footer__link">
+          </a>
+        </li>
+        <li class="footer__item">
+          <a href="https://www.linkedin.com/in/karen-corrado-crestani-438b6754/" target="_blank">
+            <img src="footer-nav-icons/linkedin.png" alt="Linkedin" class="footer__link">
+          </a>
+        </li>
+      </ul>
+
+      <a href ="#">
+        <img src="img/karenCrestaniAdvocaciaLogoOnly.png" alt="Logo" class="footer__logo" />
+      </a>
+      <p class="footer__copyright">
+        &copy; copyright by <a
+          class="footer__link github-link"
+          target="_blank"
+          href="https://github.com/BrunoCrestani"
+        >Bruno Crestani<a>. Todos os direitos reservados.</a>
+        </footer>
+  </body>
+</html>
